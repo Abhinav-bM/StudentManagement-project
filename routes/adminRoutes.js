@@ -1,4 +1,4 @@
-let signinPostPage = async (req, res) => {
+let signInPost = async (req, res) => {
   try {
     const { email, password } = req.body;
 
@@ -18,3 +18,5 @@ let signinPostPage = async (req, res) => {
     res.status(500).json("Internal server error");
   }
 };
+
+
